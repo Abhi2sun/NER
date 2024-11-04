@@ -1,12 +1,15 @@
-Named Entity Recognition (NER) using RoBERTa on CoNLL-2003 Dataset
+Named Entity Recognition (NER) using RoBERTa on CoNLL-2003 Dataset:
+
 This repository implements a Named Entity Recognition (NER) model using the pre-trained RoBERTa language model fine-tuned on the CoNLL-2003 dataset. The CoNLL-2003 dataset is widely used for NER tasks, containing labeled entities in English text such as PER (person), ORG (organization), LOC (location), and MISC (miscellaneous).
 
-Overview
+Overview:
+
 NER is a fundamental task in Natural Language Processing (NLP), where the objective is to identify and classify entities in text into predefined categories. Using a transformer-based model like RoBERTa, we can capture rich contextual information from the surrounding text, significantly improving the performance of NER over traditional models.
 
 This repository provides a streamlined implementation to fine-tune RoBERTa for NER using the Hugging Face Transformers library, which makes it easy to integrate pre-trained language models into downstream tasks.
 
-Features
+Features:
+
 Pre-trained Language Model: RoBERTa, a robustly optimized BERT model, is fine-tuned for NER, allowing for high accuracy on the CoNLL-2003 dataset.
 End-to-End Pipeline: Includes data preprocessing, model training, evaluation, and inference.
 Evaluation Metrics: Precision, recall, and F1-score metrics are computed to assess the model's performance on the NER task.
